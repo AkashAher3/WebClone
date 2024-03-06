@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <title>Adminmart Template - The Ultimate Multipurpose admin template</title>
+
+    <!-- <link href="assets/extra-libs/c3/c3.min.css" rel="stylesheet">
+    <link href="assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link href="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" /> -->
+    <link href="dist/css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+  
+   
+    <div id="main-wrapper" data-theme="light" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+        data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
+        <header class="topbar" data-navbarbg="skin6">
+            <nav class="navbar top-navbar navbar-expand-md">
+                <div class="navbar-header" data-logobg="skin6">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
+                            class="ti-menu ti-close"></i></a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <div class="navbar-brand">
+                        <a href="index.html">
+                            <b class="logo-icon">
+                                <img src="img/wix.png" alt="homepage" class="dark-logo" height="30px" />
+                            </b>
+                            <h4 class="dark-logo" >InnovatelHub</h4>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- End Logo -->
+
+                <!-- navbar start hear -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">                
+                    <ul class="navbar-nav float-left mr-auto ml-3 pl-1 font-weight-medium">
+                        <h4>Products</h4>
+                    </ul>
+                    <ul class="navbar-nav float-right">
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link" href="javascript:void(0)">
+                                <form>
+                                    <div class="customize-input">
+                                        <input class="form-control custom-shadow custom-radius border-0 bg-white"
+                                            type="search" placeholder="Search" aria-label="Search">
+                                        <i class="form-control-icon" data-feather="search"></i>
+                                    </div>
+                                </form>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i data-feather="settings" class="svg-icon"></i>
+                            </a>
+                        </li>
+                 
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- End Topbar header -->
+
+
+        <!-- Left Sidebar   -->
+
+        <aside class="left-sidebar" data-sidebarbg="skin6">
+            <div class="scroll-sidebar" data-sidebarbg="skin6">
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+
+                        <li class="sidebar-item"> <a class="sidebar-link" href="#"><i data-feather="tag"
+                                    class="feather-icon"></i><span class="hide-menu">Design Team
+                                </span></a>
+                        </li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="#"><i
+                                    data-feather="message-square" class="feather-icon"></i><span
+                                    class="hide-menu">Marketing Team</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="#"><i
+                                    data-feather="calendar" class="feather-icon"></i><span class="hide-menu">Development
+                                    Team</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="#"><i
+                                    data-feather="calendar" class="feather-icon"></i><span class="hide-menu">Create a
+                                    team</span></a></li>
+
+                        <li class="list-divider"></li>
+                        <li class="nav-small-cap"><span class="hide-menu">Floders +</span></li>
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow" href="javascript:void(0)"
+                                aria-expanded="false"><i data-feather="file-text" class="feather-icon"></i><span
+                                    class="hide-menu">Products </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level base-level-line">
+                                <li class="sidebar-item"> &nbsp; RoadMap</li>
+                                <li class="sidebar-item"> &nbsp; Feedback</li>
+                                <li class="sidebar-item"> &nbsp; Performance</li>
+                                <li class="sidebar-item"> &nbsp; Team</li>
+                                <li class="sidebar-item"> &nbsp; Analytics</li>
+                                <li class="sidebar-item"> &nbsp; + Add new Sub</li>
+
+                            </ul>
+                        </li>
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow" href="javascript:void(0)"
+                                aria-expanded="false"><i data-feather="file" class="feather-icon"></i><span
+                                    class="hide-menu">Sales </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level base-level-line">
+                                <li class="sidebar-item"> &nbsp; Items</li>
+
+                            </ul>
+                        </li>
+
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow" href="javascript:void(0)"
+                                aria-expanded="false"><i data-feather="file" class="feather-icon"></i><span
+                                    class="hide-menu">Design </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level base-level-line">
+                                <li class="sidebar-item"> &nbsp; Items</li>
+
+                            </ul>
+                        </li>
+
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="ui-cards.html"
+                                aria-expanded="false"><i data-feather="sidebar" class="feather-icon"></i><span
+                                    class="hide-menu">Office
+                                </span></a>
+                        </li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="ui-cards.html"
+                                aria-expanded="false"><i data-feather="sidebar" class="feather-icon"></i><span
+                                    class="hide-menu">Legal
+                                </span></a>
+                        </li>
+
+                        <li class="list-divider"></li>
+
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="docs/docs.html"
+                                aria-expanded="false"><i data-feather="edit-3" class="feather-icon"></i><span
+                                    class="hide-menu">Invite teammates</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="authentication-login1.html"
+                                aria-expanded="false"><i data-feather="log-out" class="feather-icon"></i><span
+                                    class="hide-menu">Help and first steps</span></a></li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+
+        <!-- End Left Sidebar   -->
+    
+        <div class="page-wrapper">
+            
+            <!-- Start  Table -->
+  
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-4">
+                               
+                                <button class="btn1 ">All Brands</button>
+                                <button class="btn1 ">Desk</button>
+                                <button class="btn1 ">Tags</button>
+                                <button class="btn1 ">Sort</button>
+                                <button class="btn1 ">Filter</button>
+
+
+                                
+
+                                <!-- Example single danger button -->
+                              
+                                <div class="ml-auto">
+                                    <button class="btn1 ">Meeting</button>
+                                    <button class="btn1 ">Import Export</button>
+    
+                                </div>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table no-wrap v-middle mb-0 table-bordered">
+                                    <thead>
+                                        <tr class="border-1">
+                                            <th class=" font-14 font-weight-medium text-muted "> Brand
+                                            </th>
+                                            <th class=" font-14 font-weight-medium text-muted px-2">Description
+                                            </th>
+                                            <th class=" font-14 font-weight-medium text-muted">Members</th>
+                                            <th class=" font-14 font-weight-medium text-muted text-center">
+                                                Categories
+                                            </th>
+                                            <th class=" font-14 font-weight-medium text-muted text-center">
+                                                Tags
+                                            </th>
+                                            <th class=" font-14 font-weight-medium text-muted">Next Meeting</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="d-flex no-block align-items-center">
+                                                    <input type="checkbox" name="" id=""> &nbsp;
+                                                    <div class="mr-3"><img src="img/wix.png" alt="user"
+                                                            class="rounded-circle" width="35" height="35" /></div>
+                                                    <div class="">
+                                                        <h5 class="text-dark mb-0 font-14 font-weight-medium "
+                                                            style="padding-right: 52px;">Wix</h5>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-muted px-2  font-14">Develop a personalized
+                                                fit..</td>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="popover-icon">
+
+
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-center px-2 "><span
+                                                    class="badge bg-new-primary">Automation</span></td>
+                                            <td class="border-top-0 text-center font-weight-medium text-muted px-2 ">
+                                                <span class="badge bg-new-gray">#DigialTransaction </span>
+                                            </td>
+                                            <td class="font-weight-medium text-dark border-top-0 px-2"><span
+                                                    class="badge bg-new-green">in 30 minutes</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="d-flex no-block align-items-center">
+                                                    <input type="checkbox" name="" id=""> &nbsp;
+                                                    <div class="mr-3"><img src="img/shopify.jpg" alt="user"
+                                                            class="rounded-circle" width="35" height="35" /></div>
+                                                    <div class="">
+                                                        <h5 class="text-dark mb-0 font-14 font-weight-medium">Shopify
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-muted px-2  font-14">Develop a personalized
+                                                fit..</td>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="popover-icon">
+
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+
+
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-center px-2 "><span
+                                                    class="badge bg-new-orange">E-commarce</span> <span
+                                                    class="badge bg-new-yellow">Automation</span></td>
+                                            <td class="border-top-0 text-center font-weight-medium text-muted px-2 ">
+                                                <span class="badge bg-new-gray">#Online Shopping </span> <span
+                                                    class="badge bg-new-gray">#Digi </span>
+                                            </td>
+                                            <td class="font-weight-medium text-dark border-top-0 px-2"><span
+                                                    class="badge bg-new-primary">Tomorrow</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="d-flex no-block align-items-center">
+                                                    <input type="checkbox" name="" id=""> &nbsp;
+                                                    <div class="mr-3"><img src="img/mailchimp.png" alt="user"
+                                                            class="rounded-circle" width="35" height="35" /></div>
+                                                    <div class="">
+                                                        <h5 class="text-dark mb-0 font-14 font-weight-medium">MailChimp
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-muted px-2  font-14">Develop a personalized
+                                                fit..</td>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="popover-icon">
+
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-center px-2 "><span
+                                                    class="badge bg-new-green">SAAS</span> <span
+                                                    class="badge bg-new-yellow">Mobile</span></td>
+                                            <td class="border-top-0 text-center font-weight-medium text-muted px-2 ">
+                                                <span class="badge bg-new-gray">#TechInnovation</span> <span
+                                                    class="badge bg-new-gray">#cloud</span>
+                                            </td>
+                                            <td class="font-weight-medium text-dark border-top-0 px-2"><span
+                                                    class="badge bg-new-primary">Tomorrow</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="d-flex no-block align-items-center">
+                                                    <input type="checkbox" name="" id=""> &nbsp;
+                                                    <div class="mr-3"><img src="img/paypal_logo.jpg" alt="user"
+                                                            class="rounded-circle" width="35" height="35" /></div>
+                                                    <div class="">
+                                                        <h5 class="text-dark mb-0 font-14 font-weight-medium">PayPal
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-muted px-2  font-14">Develop a personalized
+                                                fit..</td>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="popover-icon">
+
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-center px-2 "><span
+                                                    class="badge bg-new-green">Marketplace</span></td>
+                                            <td class="border-top-0 text-center font-weight-medium text-muted px-2 ">
+                                                <span class="badge bg-new-gray">#BuySellOnline </span>
+                                            </td>
+                                            <td class="font-weight-medium text-dark border-top-0 px-2"><span
+                                                    class="badge bg-new-green">in 6 hours</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="d-flex no-block align-items-center">
+                                                    <input type="checkbox" name="" id=""> &nbsp;
+                                                    <div class="mr-3"><img src="img/disney.jpg" alt="user"
+                                                            class="rounded-circle" width="35" height="35" /></div>
+                                                    <div class="">
+                                                        <h5 class="text-dark mb-0 font-14 font-weight-medium">Disney
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-muted px-2  font-14">Develop a personalized
+                                                fit..</td>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="popover-icon">
+
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+
+
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-center px-2 "><span
+                                                    class="badge bg-new-orange">B2B</span> <span
+                                                    class="badge bg-new-yellow">B2C</span></td>
+                                            <td class="border-top-0 text-center font-weight-medium text-muted px-2 ">
+                                                <span class="badge bg-new-gray">#BussinessPartnership </span>
+                                            </td>
+                                            <td class="font-weight-medium text-dark border-top-0 px-2"><span
+                                                    class="badge bg-new-orange">No contact</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="d-flex no-block align-items-center">
+                                                    <input type="checkbox" name="" id=""> &nbsp;
+                                                    <div class="mr-3"><img src="img/intercom.png" alt="user"
+                                                            class="rounded-circle" width="35" height="35" /></div>
+                                                    <div class="">
+                                                        <h5 class="text-dark mb-0 font-14 font-weight-medium">Intercomp
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-muted px-2  font-14">Develop a personalized
+                                                fit..</td>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="popover-icon">
+
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-center px-2 "><span
+                                                    class="badge bg-new-primary">Technology</span> <span
+                                                    class="badge bg-new-green">SAAS</span></td>
+                                            <td class="border-top-0 text-center font-weight-medium text-muted px-2 ">
+                                                <span class="badge bg-new-gray">#SmartFinance </span> <span
+                                                    class="badge bg-new-gray">#SaasSp </span>
+                                            </td>
+                                            <td class="font-weight-medium text-dark border-top-0 px-2"><span
+                                                    class="badge bg-new-gray">in 1 hour</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="d-flex no-block align-items-center">
+                                                    <input type="checkbox" name="" id=""> &nbsp;
+                                                    <div class="mr-3"><img src="img/google.png" alt="user"
+                                                            class="rounded-circle" width="35" height="35" /></div>
+                                                    <div class="">
+                                                        <h5 class="text-dark mb-0 font-14 font-weight-medium">Google
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-muted px-2  font-14">Develop a personalized
+                                                fit..</td>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="popover-icon">
+
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-center px-2 "><span
+                                                    class="badge bg-new-orange">Finance</span> <span
+                                                    class="badge bg-new-primary">Automation</span></td>
+                                            <td class="border-top-0 text-center font-weight-medium text-muted px-2 ">
+                                                <span class="badge bg-new-gray">#SmartFinance </span> <span
+                                                    class="badge bg-new-gray">#Workf </span>
+                                            </td>
+                                            <td class="font-weight-medium text-dark border-top-0 px-2"><span
+                                                    class="badge bg-new-green">in 30 minutes</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="d-flex no-block align-items-center">
+                                                    <input type="checkbox" name="" id=""> &nbsp;
+                                                    <div class="mr-3"><img src="img/evernote.png" alt="user"
+                                                            class="rounded-circle" width="35" height="35" /></div>
+                                                    <div class="">
+                                                        <h5 class="text-dark mb-0 font-14 font-weight-medium">Evernole
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-muted px-2  font-14">Develop a personalized
+                                                fit..</td>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="popover-icon">
+
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+
+
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-center px-2 "><span
+                                                    class="badge bg-new-yellow">Transportation</span> </td>
+                                            <td class="border-top-0 text-center font-weight-medium text-muted px-2 ">
+                                                <span class="badge bg-new-gray">#LogisticalTech </span> <span
+                                                    class="badge bg-new-gray">#UX </span>
+                                            </td>
+                                            <td class="font-weight-medium text-dark border-top-0 px-2"><span
+                                                    class="badge bg-new-gray">Next month</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="d-flex no-block align-items-center">
+                                                    <input type="checkbox" name="" id=""> &nbsp;
+                                                    <div class="mr-3"><img src="img/microsoft.png" alt="user"
+                                                            class="rounded-circle" width="35" height="35" /></div>
+                                                    <div class="">
+                                                        <h5 class="text-dark mb-0 font-14 font-weight-medium">Microsoft
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-muted px-2  font-14">Develop a personalized
+                                                fit..</td>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="popover-icon">
+
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-center px-2 "><span
+                                                    class="badge bg-new-orange">Publishing</span> <span
+                                                    class="badge bg-new-yellow">B2C</span></td>
+                                            <td class="border-top-0 text-center font-weight-medium text-muted px-2 ">
+                                                <span class="badge bg-new-gray">#B2CMarketing </span> <span
+                                                    class="badge bg-new-gray">#Retail </span>
+                                            </td>
+                                            <td class="font-weight-medium text-dark border-top-0 px-2"><span
+                                                    class="badge bg-new-orange">No contact</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="d-flex no-block align-items-center">
+                                                    <input type="checkbox" name="" id=""> &nbsp;
+                                                    <div class="mr-3"><img src="img/invesion.png" alt="user"
+                                                            class="rounded-circle" width="35" height="35" /></div>
+                                                    <div class="">
+                                                        <h5 class="text-dark mb-0 font-14 font-weight-medium">Invision
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-muted px-2  font-14">Develop a personalized
+                                                fit..</td>
+                                            <td class="border-top-0 px-2 ">
+                                                <div class="popover-icon">
+
+                                                    <img class=" rounded-circle popover-item"
+                                                        src="img/photo-1587778082149-bd5b1bf5d3fa.png" width="30"
+                                                        height="30" alt="">
+                                                    <img class=" rounded-circle popover-item" src="img/pic2.jpg"
+                                                        width="30" height="30" alt="">
+
+
+
+
+                                                </div>
+                                            </td>
+                                            <td class="border-top-0 text-center px-2 "><span
+                                                    class="badge bg-new-green">Web Services</span> </td>
+                                            <td class="border-top-0 text-center font-weight-medium text-muted px-2 ">
+                                                <span class="badge bg-new-gray">#APIIntegration </span>
+                                            </td>
+                                            <td class="font-weight-medium text-dark border-top-0 px-2"><span
+                                                    class="badge bg-new-gray">Next month</span>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+            <!-- End Table -->
+        </div>
+
+    </div>
+    </div>
+
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <!-- apps -->
+    <script src="dist/js/app-style-switcher.js"></script>
+    <script src="dist/js/feather.min.js"></script>
+    <script src="assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="dist/js/custom.min.js"></script>
+    <!--This page JavaScript -->
+    <script src="assets/extra-libs/c3/d3.min.js"></script>
+    <script src="assets/extra-libs/c3/c3.min.js"></script>
+    <script src="assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="dist/js/pages/dashboards/dashboard1.min.js"></script>
+</body>
+</body>
+
+</html>
